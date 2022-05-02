@@ -1,0 +1,37 @@
+body{
+    color:white;
+}
+a{
+    font-size: 30px;
+}
+section{
+    text-align:center;
+    opacity: 0.9;
+}
+.bloco{
+    background-color: #a8b491;
+    text-align: left;
+    margin: 15px 10%;
+    border-radius: 8px;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* TEXTO */
+.titulo{
+    font-family: Baskerville Bold;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.texto{
+    padding: 0px 10px 0px 10px;
+    font-family: Helvetica;
+    font-size: 40px;
+    text-align: justify;
+}
+
+
+
