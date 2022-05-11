@@ -4,6 +4,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    padding-bottom: 2em;
 }
 a{
     font-size: 30px;
@@ -12,19 +15,28 @@ section{
     text-align:center;
 }
 .bloco{
-    background-color: #a8b491;
-    text-align: left;
+    background-color: rgb(243, 255, 246);
+    color: black;
+    font-size: 30px;
+    padding: 2em;
     margin: 15px 10%;
     border-radius: 8px;
     opacity: 0.9;
-
+}
+.bloco-final{
+    background-color: #a8b491;
+    margin: 15px 10% 0px 10%;
+    border-radius: 8px;
+    opacity: 0.9;
 }
 img {
     display: block;
     max-width: 100%;
+    width: 90%;
+    border-radius: 32px;
+    margin-bottom: 12px;
 }
 .botao{
-    margin: 10px;
     background-color: transparent;
     border: 1px solid black;
     color: black;
@@ -43,10 +55,12 @@ img {
 }
 .texto{
     padding: 0px 10px 0px 10px;
+    margin: 2em;
     font-family: Helvetica;
-    font-size: 40px;
+    font-size: 30px;
     text-align: justify;
 }
-
-
-
+.borda_texto{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    }
