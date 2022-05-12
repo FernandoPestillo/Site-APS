@@ -50,10 +50,11 @@ img {
 .navbar {
     z-index: 1000;
     background-color: #1b1f23;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
     padding: 0 10% 0 10%;
     display: flex;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.5rem;
 }
 
 .img-logo {
