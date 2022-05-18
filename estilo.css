@@ -81,14 +81,9 @@ img {
 }
 .texto_tab{
     font-family: Helvetica;
-    font-weight: 500;
     font-size: 25px;
 }
-table{
-    margin: auto;
-    padding: 0;
-    width: 20%;
-}
+
 .texto_c{
     padding: 0px 10px 0px 10px;
     margin: 1em 2em;
